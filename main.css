@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(./img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header img{
+    height: 150px;
+}
+    
+
+.imgLogo{
+    display: inline-block;
+    
+}
+
+    
+.contenedorMayor{
+        height: auto;
+        display: flex;
+    
+}
+.contenedorMenor{
+        display: flex; 
+        width: 100%;
+        height: auto;
+}
+
+.contenedor1{
+        height: 300px;
+        width: 200px;
+        margin: 20px 40px;
+        display: inline;
+}
+
+.imgdoc{
+        border: solid 3px rgb(255, 255, 255);
+        border-radius: 40px;
+        margin: 10px 0px 5px;
+        height: 300px;
+        
+}
+
+.contenedor1 button {
+        
+        padding: 13px;
+        margin: 0px 15px;
+        border-radius: 20px;
+        border: none;
+        font-size: 15px;
+        font-weight:bold;
+        cursor: pointer;
+}
+.contenedor1 h2{
+    text-align: center;
+}
+
+.contenedor1 button:hover{
+    background-color: dimgrey;
+
+}
+    
+ .contenedor2{
+    height: 120px;
+    width: 500px;
+    margin: 30px 30px;
+        
+}
+
+#test{
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+        background-color: #000829;
+        width: 100%;
+        height: 150px;
+        justify-content: space-between; 
+        align-items: center;
+        display: inline-flex;
+}
+.turnos button:disabled {
+        cursor: not-allowed;
+}
+    
+.contenedor3{
+        height: 300px;
+        width: 400px;
+        margin: 30px 30px;
+}
+
+.contenedor3 div {
+        margin: 10px;
+        font-size: 25px;
+}
+    
+.btnclasic{
+        padding: 7px;
+        border-radius: 15px;
+        cursor: pointer;
+        border: none;
+        font-weight:bold;
+}
+.btnclasic:hover{
+        background-color: dimgrey;
+}
+
+.btncerrar{
+       margin: 20px 5px;
+}
+
+
+

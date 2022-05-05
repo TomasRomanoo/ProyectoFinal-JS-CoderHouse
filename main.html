@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica Dental</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    
+    
+    
+</head>
+<body>
+   <header>
+       <div class="imgLogo">
+           <div><img src="img/logo.jpg" alt=""></div>
+           <div><button class="btnclasic btnHeader" onclick="salir();">Salir</button></div>
+        </div>
+        
+    </header>
+    
+    <section class="contenedorMayor">
+       
+        <div class="contenedor1"> 
+            <div>
+                <h2>Odontologo</h2>
+                <h2>Juan Perez</h2>
+                <div><img class="imgdoc" src="img/doctor1.jpg" alt=""></div>
+                    <a href="#modal" rel="modal:open">
+                        <button id="btnVerTurnos" onclick="mostrarDiv();"> Ver turnos disponibles</button>
+                    </a>
+            </div>
+        </div>
+        
+        <div id="modal" class="contenedorMenor" style="display: none;">
+            <div class="contenedor2" id="turnosDisponibles">
+                <h2> Turnos Disponibles </h2>
+                    <div id="test" ></div>
+                
+                <div class="btncerrar">
+                    <button onclick="ocultarDiv();" class="btnclasic"> Cerrar </button>
+                    </div>
+            </div>
+        
+            <div class="contenedor3">
+                <h2>Mis Turnos</h2>
+                <div id="turnoAdquirido"></div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
+

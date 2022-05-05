@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="registro.js"defer></script>
+    
+    
+
+    
+</head>
+<body>
+   
+    <form class="form" onsubmit="hacerRegistro(event)">
+        
+        <h2>Crear Perfil</h2>
+        
+        <p type="Nombre">
+            <input id="nombre" placeholder="Ingrese su Nombre Completo" required></input></p>
+        <p type="Numero de documento:">
+            <input type="number" id="dni" placeholder="Ingrese su DNI" required></input></p>
+        <p type="Password">
+            <input type="password" id="password" placeholder="Ingrese su Contraseña" required></input></p>
+        <p type="Email">
+            <input id="email" placeholder="Ingrese su Email" required></input></p>
+        <button type="submit" class="btn" id="boton">Registrar</button>
+        
+        <p style="display:none" id="rOk"> Registro exitoso </p>
+        
+        <button type="" class="btn btn2" id="boton2">Ya tengo cuenta</button>
+
+        
+     
+       </form>
+</body>
+</html>
